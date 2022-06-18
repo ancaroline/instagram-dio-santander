@@ -92,9 +92,18 @@ body {
     border-radius: 4px;
 }
 
+.instagram-login:hover {
+    color: white;
+    background-color: #0676bf;
+}
+
 .instagram-logout {
     color:#0095f6;
     margin-top: 1rem;
+}
+
+.instagram-logout:hover {
+    color: #0676bf;
 }
 
 .not-account {
@@ -108,6 +117,10 @@ p {
 
 .link-blue {
     color: rgba(0,149,246,1);
+}
+
+.link-blue:hover {
+    color: #0676bf;
 }
 
 .get-the-app {
@@ -141,6 +154,11 @@ p {
 
 .app-download:nth-child(2) {
     background-image: url('img/googleplay-button.png');
+}
+
+.app-download:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease transform;
 }
 
 /*media queries */
